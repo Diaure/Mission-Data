@@ -5,7 +5,7 @@ import pandas as pd
 from streamlit_folium import folium_static
 
 try:
-    tour1_2022 = pd.read_csv("https://github.com/Diaure/Mission-Data/blob/main/CSV/meilleurs_candidats_tour1_22.csv", sep=',', encoding='utf-8', error_bad_lines=False)
+    tour1_2022 = pd.read_csv("https://github.com/Diaure/Mission-Data/blob/main/CSV/meilleurs_candidats_tour1_22.csv", sep=',', encoding='utf-8')
     tour1_2022_sans_nan = tour1_2022.dropna()
 
     BN_BNA_sup_5_2022 = pd.read_csv("https://github.com/Diaure/Mission-Data/blob/main/CSV/BN_BNA_sup_5_2022.csv",sep=',', encoding='utf-8')
