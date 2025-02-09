@@ -89,8 +89,7 @@ N'hésitez pas à interagir avec les cartes (zoom sur des groupes précis) afin 
 ## 🏆 **Auteurs & Contributions**
 
 Projet réalisé dans le cadre d’un projet scolaire de Data Analyst.<br>
-Contributions : [Aurélie GABU](https://github.com/Diaure/Projects)<br>
-[Mariétou]()<br>
+**Contributions** : **[Aurélie GABU]**(https://github.com/Diaure/Projects), **[Mariétou]**()<br>
 
 ## 📌 Sources
 
