@@ -23,13 +23,18 @@ Les données proviennent du portail officiel [data.gouv.fr](https://www.data.gou
 
 📌 **Jeux de données utilisées** :
 
-* Résultats des élections présidentielles en France depuis 1995.
+* Résultats des élections présidentielles en France depuis 1995.<br>
 
-* Résultats détaillés des élections de 2022 (1er et 2nd tour).
+* Résultats détaillés des élections de 2022 (1er et 2nd tour).<br>
 
-* Taux d'abstention pour chaque élection.
+* Taux d'abstention pour chaque élection.<br>
 
-* Découpage administratif des communes et départements français.
+* Découpage administratif des communes et départements français.<br>
+
+⚠️**Note**<br>
+Dans les livrables les sigles suivants seront utilisés:<br>
+* **BN** = Blancs et Nuls<br>
+* **BNA** = Blancs, nuls et abstentions<br>
 
 ## 📊 Résultats
 
@@ -64,10 +69,6 @@ N'hésitez pas à interagir avec les cartes (zoom sur des groupes précis) afin 
 * ✔️ Analyse détaillée des tendances des votes blancs et nuls <br>
 * ✔️ Présentation des résultats des élections en intégrant ces votes comme candidats <br>
 * ✔️ Visualisations interactives et cartes géographiques<br>
-
-⚠️**Note** : Dans les livrables les sigles suivants seront utilisés:<br>
-* **BN** = Blancs et Nuls<br>
-* **BNA** = Blancs, nuls et abstentions
 
 ## 📑 Méthodologie
 
