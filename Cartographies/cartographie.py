@@ -4,19 +4,16 @@ import streamlit as st
 import pandas as pd
 from streamlit_folium import folium_static
 
+try:
+    tour1_2022 = pd.read_csv("https://github.com/Diaure/Mission-Data/blob/main/CSV/meilleurs_candidats_tour1_22.csv", sep=',', encoding='utf-8')
+    tour1_2022_sans_nan = tour1_2022.dropna()
 
-@st.cache_data
-def load_data(file_path):
-    return pd.read_csv(file_path, sep=",", low_memory=False).dropna()
-
-tour1_2022 = load_data("https://github.com/Diaure/Mission-Data/blob/main/CSV/meilleurs_candidats_tour1_22.csv")
-tour1_2022_sans_nan = tour1_2022.dropna()
-
-BN_BNA_sup_5_2022 = load_data("https://github.com/Diaure/Mission-Data/blob/main/CSV/BN_BNA_sup_5_2022.csv")
-sup5_BN_BNA_sans_nan = BN_BNA_sup_5_2022.dropna()
-sup5_BN_BNA_sans_nan['Tour'] = sup5_BN_BNA_sans_nan['Tour'].astype(str)
-tours = list(sup5_BN_BNA_sans_nan['Tour'].unique()) 
-
+    BN_BNA_sup_5_2022 = pd.read_csv("https://github.com/Diaure/Mission-Data/blob/main/CSV/BN_BNA_sup_5_2022.csv"sep=',', encoding='utf-8')
+    sup5_BN_BNA_sans_nan = BN_BNA_sup_5_2022.dropna()
+    sup5_BN_BNA_sans_nan['Tour'] = sup5_BN_BNA_sans_nan['Tour'].astype(str)
+    tours = list(sup5_BN_BNA_sans_nan['Tour'].unique()) 
+except Exception as e:
+    st.error(f"An error occurred: {e}") 
 
 # centrer la carte sur la France
 latitude_centre, longitude_centre = 46.603354, 1.888152
