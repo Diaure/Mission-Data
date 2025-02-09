@@ -1,0 +1,92 @@
+,index,Départements,Candidats,Votes,coordonnées,longitude,latitude
+0,0,Ain,Blancs_nuls et abstentions,31.4,"[49.507784, 0.141224]",0.141224,49.507784
+1,1,Allier,Blancs_nuls et abstentions,36.1,"[44.529261, 4.333397]",4.333397,44.529261
+2,2,Alpes-de-Haute-Provence,Blancs_nuls et abstentions,31.1,"[44.543923, 6.06072]",6.06072,44.543923
+3,3,Ardèche,Blancs_nuls et abstentions,29.0,"[43.572296, 1.416248]",1.416248,43.572296
+4,4,Aude,Blancs_nuls et abstentions,31.3,"[46.453962, 2.558704]",2.558704,46.453962
+5,5,Aveyron,Blancs_nuls et abstentions,27.7,"[44.050563, 1.343174]",1.343174,44.050563
+6,6,Bas-Rhin,Blancs_nuls et abstentions,34.4,"[45.99282, 4.103405]",4.103405,45.99282
+7,7,Bouches-du-Rhône,Blancs_nuls et abstentions,42.3,"[43.585366, 1.481327]",1.481327,43.585366
+8,8,Calvados,Blancs_nuls et abstentions,33.8,"[43.621332, 1.440222]",1.440222,43.621332
+9,9,Cantal,Blancs_nuls et abstentions,30.6,"[43.572864, 1.4144]",1.4144,43.572864
+10,10,Charente,Blancs_nuls et abstentions,33.3,"[43.583284, 1.408434]",1.408434,43.583284
+11,11,Charente-Maritime,Blancs_nuls et abstentions,60.0,"[46.171565, -1.172684]",-1.172684,46.171565
+12,12,Cher,Blancs_nuls et abstentions,54.2,"[47.701401, -1.756786]",-1.756786,47.701401
+13,13,Corrèze,Blancs_nuls et abstentions,37.0,"[45.365038, 1.862942]",1.862942,45.365038
+14,14,Creuse,Blancs_nuls et abstentions,34.9,"[47.995539, -1.454792]",-1.454792,47.995539
+15,15,Côte-d'Or,Blancs_nuls et abstentions,29.8,"[14.724255, -61.013642]",-61.013642,14.724255
+16,16,Doubs,Blancs_nuls et abstentions,30.1,"[16.294871, -61.479422]",-61.479422,16.294871
+17,17,Drôme,Blancs_nuls et abstentions,28.8,"[48.914813, -1.014483]",-1.014483,48.914813
+18,18,Essonne,Blancs_nuls et abstentions,50.5,"[49.206305, 1.15481]",1.15481,49.206305
+19,19,Eure-et-Loir,Blancs_nuls et abstentions,39.0,"[48.435586, 1.48366]",1.48366,48.435586
+20,20,Finistère,Blancs_nuls et abstentions,32.4,"[43.648938, 1.445971]",1.445971,43.648938
+21,21,Hors de France,Blancs_nuls et abstentions,373.1,"[47.529648, 5.367307]",5.367307,47.529648
+22,22,Gard,Blancs_nuls et abstentions,33.2,"[44.925276, -0.443779]",-0.443779,44.925276
+23,23,Gers,Blancs_nuls et abstentions,24.6,"[43.584323, 1.474761]",1.474761,43.584323
+24,24,Gironde,Blancs_nuls et abstentions,37.4,"[46.800171, 0.358351]",0.358351,46.800171
+25,25,Outre-mer,Blancs_nuls et abstentions,141.1,"[43.239735, 5.364691]",5.364691,43.239735
+26,26,Outre-mer,Blancs_nuls et abstentions,244.0,"[43.239735, 5.364691]",5.364691,43.239735
+27,27,Haut-Rhin,Blancs_nuls et abstentions,40.6,"[47.652625, 6.852593]",6.852593,47.652625
+28,28,Haute-Corse,Blancs_nuls et abstentions,70.2,"[43.580822, 1.418321]",1.418321,43.580822
+29,29,Haute-Loire,Blancs_nuls et abstentions,29.5,"[47.90238, 1.759419]",1.759419,47.90238
+30,30,Haute-Savoie,Blancs_nuls et abstentions,35.5,"[48.433375, -4.628211]",-4.628211,48.433375
+31,31,Haute-Vienne,Blancs_nuls et abstentions,34.2,"[45.828294, 1.259521]",1.259521,45.828294
+32,32,Hautes-Alpes,Blancs_nuls et abstentions,28.1,"[46.24177, 6.433879]",6.433879,46.24177
+33,33,Hautes-Pyrénées,Blancs_nuls et abstentions,28.2,"[43.401574, 3.704402]",3.704402,43.401574
+34,34,Hérault,Blancs_nuls et abstentions,35.5,"[47.296167, -1.357286]",-1.357286,47.296167
+35,35,Indre,Blancs_nuls et abstentions,65.8,"[47.198227, -1.664069]",-1.664069,47.198227
+36,36,Indre-et-Loire,Blancs_nuls et abstentions,34.9,"[47.404818, 0.699401]",0.699401,47.404818
+37,37,Jura,Blancs_nuls et abstentions,28.1,"[44.928801, -0.164821]",-0.164821,44.928801
+38,38,Outre-mer,Blancs_nuls et abstentions,109.8,"[43.239735, 5.364691]",5.364691,43.239735
+39,39,Landes,Blancs_nuls et abstentions,26.6,"[44.478396, 1.001402]",1.001402,44.478396
+40,40,Loir-et-Cher,Blancs_nuls et abstentions,42.9,"[47.362207, 0.674311]",0.674311,47.362207
+41,41,Loiret,Blancs_nuls et abstentions,37.1,"[48.2103, 0.748079]",0.748079,48.2103
+42,42,Lot,Blancs_nuls et abstentions,25.2,"[16.207767, -61.497477]",-61.497477,16.207767
+43,43,Lot-et-Garonne,Blancs_nuls et abstentions,29.1,"[47.795858, 7.175892]",7.175892,47.795858
+44,44,Lozère,Blancs_nuls et abstentions,26.2,"[43.629945, 1.452587]",1.452587,43.629945
+45,45,Manche,Blancs_nuls et abstentions,34.2,"[46.366939, 4.111601]",4.111601,46.366939
+46,46,Marne,Blancs_nuls et abstentions,37.9,"[47.096564, -1.727034]",-1.727034,47.096564
+47,47,Outre-mer,Blancs_nuls et abstentions,156.0,"[43.239735, 5.364691]",5.364691,43.239735
+48,48,Mayenne,Blancs_nuls et abstentions,38.9,"[48.303387, -0.617261]",-0.617261,48.303387
+49,49,Outre-mer,Blancs_nuls et abstentions,169.7,"[43.239735, 5.364691]",5.364691,43.239735
+50,50,Meurthe-et-Moselle,Blancs_nuls et abstentions,35.8,"[49.204714, 5.930193]",5.930193,49.204714
+51,51,Moselle,Blancs_nuls et abstentions,40.2,"[43.587137, 1.419465]",1.419465,43.587137
+52,52,Nièvre,Blancs_nuls et abstentions,37.4,"[46.408362, 4.907554]",4.907554,46.408362
+53,53,Nord,Blancs_nuls et abstentions,42.9,"[44.238777, 0.409467]",0.409467,44.238777
+54,54,Nouvelle-Calédonie,Blancs_nuls et abstentions,808.8,"[48.838065, 2.409586]",2.409586,48.838065
+55,55,Orne,Blancs_nuls et abstentions,33.4,"[49.253076, 5.472451]",5.472451,49.253076
+56,56,Puy-de-Dôme,Blancs_nuls et abstentions,31.2,"[45.787181, 3.06056]",3.06056,45.787181
+57,57,Pyrénées-Atlantiques,Blancs_nuls et abstentions,28.9,"[43.190161, -0.222166]",-0.222166,43.190161
+58,58,Pyrénées-Orientales,Blancs_nuls et abstentions,34.9,"[43.407957, 3.711567]",3.711567,43.407957
+59,59,Rhône,Blancs_nuls et abstentions,32.3,"[47.84771, -0.439938]",-0.439938,47.84771
+60,60,Saint-Martin/Saint-Barthélemy,Blancs_nuls et abstentions,214.1,"[43.516885, -1.336597]",-1.336597,43.516885
+61,61,Saint-Pierre-et-Miquelon,Blancs_nuls et abstentions,92.7,"[48.651196, -1.995025]",-1.995025,48.651196
+62,62,Sarthe,Blancs_nuls et abstentions,37.6,"[43.539836, 0.5023]",0.5023,43.539836
+63,63,Savoie,Blancs_nuls et abstentions,29.5,"[44.617348, 0.181972]",0.181972,44.617348
+64,64,Saône-et-Loire,Blancs_nuls et abstentions,32.6,"[46.579969, 4.972598]",4.972598,46.579969
+65,65,Seine-Maritime,Blancs_nuls et abstentions,39.4,"[49.50775, 0.173309]",0.173309,49.50775
+66,66,Seine-Saint-Denis,Blancs_nuls et abstentions,50.6,"[48.923559, 2.338941]",2.338941,48.923559
+67,67,Tarn,Blancs_nuls et abstentions,36.4,"[44.976592, -0.355496]",-0.355496,44.976592
+68,68,Tarn-et-Garonne,Blancs_nuls et abstentions,29.3,"[44.218719, -1.290348]",-1.290348,44.218719
+69,69,Territoire de Belfort,Blancs_nuls et abstentions,42.5,"[47.652966, 6.844503]",6.844503,47.652966
+70,70,Val-d'Oise,Blancs_nuls et abstentions,38.5,"[43.584835, 1.327291]",1.327291,43.584835
+71,71,Val-de-Marne,Blancs_nuls et abstentions,43.9,"[48.789323, 2.492222]",2.492222,48.789323
+72,72,Var,Blancs_nuls et abstentions,38.4,"[48.206701, -4.540817]",-4.540817,48.206701
+73,73,Vaucluse,Blancs_nuls et abstentions,38.2,"[46.414433, 5.889005]",5.889005,46.414433
+74,74,Vienne,Blancs_nuls et abstentions,33.0,"[45.802269, 1.125303]",1.125303,45.802269
+75,75,Wallis et Futuna,Blancs_nuls et abstentions,77.8,"[47.984286, -4.090435]",-4.090435,47.984286
+76,76,Yonne,Blancs_nuls et abstentions,40.8,"[43.571407, 1.413493]",1.413493,43.571407
+77,77,Côtes-d'Armor,Emmanuel MACRON,30.1,"[48.762699, 1.929265]",1.929265,48.762699
+78,78,Hauts-de-Seine,Emmanuel MACRON,36.4,"[48.828416, 2.250438]",2.250438,48.828416
+79,79,Ille-et-Vilaine,Emmanuel MACRON,34.3,"[48.65794, -1.974656]",-1.974656,48.65794
+80,80,Maine-et-Loire,Emmanuel MACRON,34.8,"[47.164514, -1.469476]",-1.469476,47.164514
+81,81,Morbihan,Emmanuel MACRON,32.2,"[-20.911767, 55.493472]",55.493472,-20.911767
+82,82,Vendée,Emmanuel MACRON,35.0,"[46.506181, -0.66528]",-0.66528,46.506181
+83,83,Yvelines,Emmanuel MACRON,32.7,"[48.774224, 2.001175]",2.001175,48.774224
+84,84,Ardennes,Marine LE PEN,36.9,"[46.60821, -1.456851]",-1.456851,46.60821
+85,85,Aube,Marine LE PEN,36.1,"[46.25079, 1.834699]",1.834699,46.25079
+86,86,Eure,Marine LE PEN,33.6,"[43.492771, 4.999235]",4.999235,43.492771
+87,87,Haute-Marne,Marine LE PEN,37.1,"[48.113174, 7.416128]",7.416128,48.113174
+88,88,Haute-Saône,Marine LE PEN,35.5,"[47.473904, 5.379161]",5.379161,47.473904
+89,89,Meuse,Marine LE PEN,36.0,"[43.582776, 1.484166]",1.484166,43.582776
+90,90,Ariège,Jean-Luc MÉLENCHON,28.0,"[43.581795, 1.482163]",1.482163,43.581795
