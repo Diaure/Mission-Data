@@ -1,0 +1,2823 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4aea64c2d1c0f0b8579f006d65d71e1c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4aea64c2d1c0f0b8579f006d65d71e1c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4aea64c2d1c0f0b8579f006d65d71e1c = L.map(
+                "map_4aea64c2d1c0f0b8579f006d65d71e1c",
+                {
+                    center: [46.603354, 1.888152],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_92eeb2549b07ecd61c54737aae7c74f8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_92eeb2549b07ecd61c54737aae7c74f8.addTo(map_4aea64c2d1c0f0b8579f006d65d71e1c);
+        
+    
+            var feature_group_b8f5eb95c75a41219b3262d080d11267 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_cluster_1f0449ce075a17eb696b62d2982a527f = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_9213853f49ef23e9ce5afcc74519869f = L.marker(
+                [49.507784, 0.141224],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_a40961e4793b962125a625944e84243f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9213853f49ef23e9ce5afcc74519869f.setIcon(icon_a40961e4793b962125a625944e84243f);
+        
+    
+            marker_9213853f49ef23e9ce5afcc74519869f.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Ain<br><b>Score:</b> 31.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b4ba322090239e587d94210e57b8b8d6 = L.marker(
+                [44.529261, 4.333397],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_0f454d564954c72c4600039ced45a870 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b4ba322090239e587d94210e57b8b8d6.setIcon(icon_0f454d564954c72c4600039ced45a870);
+        
+    
+            marker_b4ba322090239e587d94210e57b8b8d6.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Allier<br><b>Score:</b> 36.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6ff33f4296419fe12644f1db0228e2ba = L.marker(
+                [44.543923, 6.06072],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_c63e270ce670a6dffc8db082c5c0be9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6ff33f4296419fe12644f1db0228e2ba.setIcon(icon_c63e270ce670a6dffc8db082c5c0be9c);
+        
+    
+            marker_6ff33f4296419fe12644f1db0228e2ba.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Alpes-de-Haute-Provence<br><b>Score:</b> 31.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_895297044b3b2e5a9ba0fa1db88390a9 = L.marker(
+                [43.572296, 1.416248],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_26065779fd5f4287301c90fefa3c0c21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_895297044b3b2e5a9ba0fa1db88390a9.setIcon(icon_26065779fd5f4287301c90fefa3c0c21);
+        
+    
+            marker_895297044b3b2e5a9ba0fa1db88390a9.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Ardèche<br><b>Score:</b> 29.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_47eabfc9e3499503c45a4794483f9d9c = L.marker(
+                [46.453962, 2.558704],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_1598af535c413ea427d908cf9781bae9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_47eabfc9e3499503c45a4794483f9d9c.setIcon(icon_1598af535c413ea427d908cf9781bae9);
+        
+    
+            marker_47eabfc9e3499503c45a4794483f9d9c.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Aude<br><b>Score:</b> 31.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_44341757a42649101ee9c498132ac60a = L.marker(
+                [44.050563, 1.343174],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_d6d17a957f50ef0ceebb2437a8c16911 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_44341757a42649101ee9c498132ac60a.setIcon(icon_d6d17a957f50ef0ceebb2437a8c16911);
+        
+    
+            marker_44341757a42649101ee9c498132ac60a.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Aveyron<br><b>Score:</b> 27.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aca25a4f47cf69d2f9c67c87d1ea9eb5 = L.marker(
+                [45.99282, 4.103405],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_5934bbc40cbe8f234b7b15d2f140502f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aca25a4f47cf69d2f9c67c87d1ea9eb5.setIcon(icon_5934bbc40cbe8f234b7b15d2f140502f);
+        
+    
+            marker_aca25a4f47cf69d2f9c67c87d1ea9eb5.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Bas-Rhin<br><b>Score:</b> 34.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1be9f9bed92af4ebce8cd4486e9256d7 = L.marker(
+                [43.585366, 1.481327],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_66591b93ba52b6aa2e6af3d53a603f04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1be9f9bed92af4ebce8cd4486e9256d7.setIcon(icon_66591b93ba52b6aa2e6af3d53a603f04);
+        
+    
+            marker_1be9f9bed92af4ebce8cd4486e9256d7.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Bouches-du-Rhône<br><b>Score:</b> 42.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d5d8a2edd204c32d4c47749086bc2f84 = L.marker(
+                [43.621332, 1.440222],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_fc318b2d48d0c15429f4ef2fd4a2ee6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d5d8a2edd204c32d4c47749086bc2f84.setIcon(icon_fc318b2d48d0c15429f4ef2fd4a2ee6c);
+        
+    
+            marker_d5d8a2edd204c32d4c47749086bc2f84.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Calvados<br><b>Score:</b> 33.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bcf638637184776851e7ae4e6f417482 = L.marker(
+                [43.572864, 1.4144],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_d5c2d8c90321091875c3451e63a66487 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bcf638637184776851e7ae4e6f417482.setIcon(icon_d5c2d8c90321091875c3451e63a66487);
+        
+    
+            marker_bcf638637184776851e7ae4e6f417482.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Cantal<br><b>Score:</b> 30.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc76a68e1e015eed47507423c72ab4a3 = L.marker(
+                [43.583284, 1.408434],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_9a2ae602fc5c885905b42f08e591706b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bc76a68e1e015eed47507423c72ab4a3.setIcon(icon_9a2ae602fc5c885905b42f08e591706b);
+        
+    
+            marker_bc76a68e1e015eed47507423c72ab4a3.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Charente<br><b>Score:</b> 33.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_74bcbe899c490f9cf23593837223e615 = L.marker(
+                [46.171565, -1.172684],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_956ffeefbaeb878eaac77401babcc20a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_74bcbe899c490f9cf23593837223e615.setIcon(icon_956ffeefbaeb878eaac77401babcc20a);
+        
+    
+            marker_74bcbe899c490f9cf23593837223e615.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Charente-Maritime<br><b>Score:</b> 60.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_822adcc8f7c70d73744ff0a75082fef6 = L.marker(
+                [47.701401, -1.756786],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_11dcf4f8a5cf545c4458143f3b012627 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_822adcc8f7c70d73744ff0a75082fef6.setIcon(icon_11dcf4f8a5cf545c4458143f3b012627);
+        
+    
+            marker_822adcc8f7c70d73744ff0a75082fef6.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Cher<br><b>Score:</b> 54.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a6f49bb015e3850db3129c1d7b2d7685 = L.marker(
+                [45.365038, 1.862942],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_11176adeea715ebc2aa6bca901d1d1b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a6f49bb015e3850db3129c1d7b2d7685.setIcon(icon_11176adeea715ebc2aa6bca901d1d1b6);
+        
+    
+            marker_a6f49bb015e3850db3129c1d7b2d7685.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Corrèze<br><b>Score:</b> 37.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c5492998aa656f3558e3a48dc1bb797 = L.marker(
+                [47.995539, -1.454792],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_f5956ea316610e5284c785e42af1c79e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6c5492998aa656f3558e3a48dc1bb797.setIcon(icon_f5956ea316610e5284c785e42af1c79e);
+        
+    
+            marker_6c5492998aa656f3558e3a48dc1bb797.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Creuse<br><b>Score:</b> 34.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dbbe1ef8a2f16399b9b6766a1b2f128d = L.marker(
+                [14.724255, -61.013642],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_d79cd0d709bc6823a62d4e5522a40cd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dbbe1ef8a2f16399b9b6766a1b2f128d.setIcon(icon_d79cd0d709bc6823a62d4e5522a40cd1);
+        
+    
+            marker_dbbe1ef8a2f16399b9b6766a1b2f128d.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Côte-d'Or<br><b>Score:</b> 29.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e9cab1621b2e13826f2bd4ce91d034ce = L.marker(
+                [16.294871, -61.479422],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_784d5425b4b686a53c309d89fde90dd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e9cab1621b2e13826f2bd4ce91d034ce.setIcon(icon_784d5425b4b686a53c309d89fde90dd4);
+        
+    
+            marker_e9cab1621b2e13826f2bd4ce91d034ce.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Doubs<br><b>Score:</b> 30.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a3e76f03c551d6c4ea88f48513fb0d66 = L.marker(
+                [48.914813, -1.014483],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_4b0184336e585047b648471af6dce5a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a3e76f03c551d6c4ea88f48513fb0d66.setIcon(icon_4b0184336e585047b648471af6dce5a1);
+        
+    
+            marker_a3e76f03c551d6c4ea88f48513fb0d66.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Drôme<br><b>Score:</b> 28.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_81c390a161875d8ea7f357a0a826d246 = L.marker(
+                [49.206305, 1.15481],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_2d1be8bcbdb269e13de01743803f25ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_81c390a161875d8ea7f357a0a826d246.setIcon(icon_2d1be8bcbdb269e13de01743803f25ec);
+        
+    
+            marker_81c390a161875d8ea7f357a0a826d246.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Essonne<br><b>Score:</b> 50.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_15712e26cd4031d1732f6aa038c75d57 = L.marker(
+                [48.435586, 1.48366],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_91b507d1ea7cca3704df3524ae67c16a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_15712e26cd4031d1732f6aa038c75d57.setIcon(icon_91b507d1ea7cca3704df3524ae67c16a);
+        
+    
+            marker_15712e26cd4031d1732f6aa038c75d57.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Eure-et-Loir<br><b>Score:</b> 39.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2a37387372112b30379c3780cf1f4e47 = L.marker(
+                [43.648938, 1.445971],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_6ef0c53f29bef1479febfaa410fb74e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2a37387372112b30379c3780cf1f4e47.setIcon(icon_6ef0c53f29bef1479febfaa410fb74e0);
+        
+    
+            marker_2a37387372112b30379c3780cf1f4e47.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Finistère<br><b>Score:</b> 32.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7a5a31f45233bab7bc485a1e03888280 = L.marker(
+                [47.529648, 5.367307],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_9aefc94a6fcae4021a82f330dc5da1ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7a5a31f45233bab7bc485a1e03888280.setIcon(icon_9aefc94a6fcae4021a82f330dc5da1ff);
+        
+    
+            marker_7a5a31f45233bab7bc485a1e03888280.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Hors de France<br><b>Score:</b> 373.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8d250f0fe0d59899bd9b4a879e07cbe5 = L.marker(
+                [44.925276, -0.443779],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_b75f85b32473f3a7a38ce4610695b260 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8d250f0fe0d59899bd9b4a879e07cbe5.setIcon(icon_b75f85b32473f3a7a38ce4610695b260);
+        
+    
+            marker_8d250f0fe0d59899bd9b4a879e07cbe5.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Gard<br><b>Score:</b> 33.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a72a8e277f308ae015331f782adeb030 = L.marker(
+                [43.584323, 1.474761],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_565f298776108ff55841e613a313ce50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a72a8e277f308ae015331f782adeb030.setIcon(icon_565f298776108ff55841e613a313ce50);
+        
+    
+            marker_a72a8e277f308ae015331f782adeb030.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Gers<br><b>Score:</b> 24.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96c1d0062ce8477d1f0783429bd7719a = L.marker(
+                [46.800171, 0.358351],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_21515eeab92b81547e707413ad8efe5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_96c1d0062ce8477d1f0783429bd7719a.setIcon(icon_21515eeab92b81547e707413ad8efe5c);
+        
+    
+            marker_96c1d0062ce8477d1f0783429bd7719a.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Gironde<br><b>Score:</b> 37.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6bb2ad801fa0d4c5425f6b80e53ab08d = L.marker(
+                [43.239735, 5.364691],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_017acc6b0b0dd961aabcf61ec1f68e7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6bb2ad801fa0d4c5425f6b80e53ab08d.setIcon(icon_017acc6b0b0dd961aabcf61ec1f68e7e);
+        
+    
+            marker_6bb2ad801fa0d4c5425f6b80e53ab08d.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Outre-mer<br><b>Score:</b> 141.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c54c6ca7bce4484d19d623b2a499a2e7 = L.marker(
+                [43.239735, 5.364691],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_70d4fb8b003289f2bec488a28b0cab8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c54c6ca7bce4484d19d623b2a499a2e7.setIcon(icon_70d4fb8b003289f2bec488a28b0cab8f);
+        
+    
+            marker_c54c6ca7bce4484d19d623b2a499a2e7.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Outre-mer<br><b>Score:</b> 244.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d25d00c1da645fe6e027a0636f4999d7 = L.marker(
+                [47.652625, 6.852593],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_02c085fe64b34bb779b1712e94daa85c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d25d00c1da645fe6e027a0636f4999d7.setIcon(icon_02c085fe64b34bb779b1712e94daa85c);
+        
+    
+            marker_d25d00c1da645fe6e027a0636f4999d7.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Haut-Rhin<br><b>Score:</b> 40.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a14b4eab1d96129d49d5328a913e8c3 = L.marker(
+                [43.580822, 1.418321],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_edc690cfa6e29b65234572bda14bfeb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a14b4eab1d96129d49d5328a913e8c3.setIcon(icon_edc690cfa6e29b65234572bda14bfeb3);
+        
+    
+            marker_5a14b4eab1d96129d49d5328a913e8c3.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Haute-Corse<br><b>Score:</b> 70.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dd225e33a4e42347b71ff3997e6add0c = L.marker(
+                [47.90238, 1.759419],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_d7042f55bd259d0bcba8556e34524047 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dd225e33a4e42347b71ff3997e6add0c.setIcon(icon_d7042f55bd259d0bcba8556e34524047);
+        
+    
+            marker_dd225e33a4e42347b71ff3997e6add0c.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Haute-Loire<br><b>Score:</b> 29.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9e2cf005bb9b98fd2abd9e9390ac3431 = L.marker(
+                [48.433375, -4.628211],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_79e871361bb469367ae77c9e184ee314 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9e2cf005bb9b98fd2abd9e9390ac3431.setIcon(icon_79e871361bb469367ae77c9e184ee314);
+        
+    
+            marker_9e2cf005bb9b98fd2abd9e9390ac3431.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Haute-Savoie<br><b>Score:</b> 35.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cae5ade807079c99e035fa84f7a5d9a0 = L.marker(
+                [45.828294, 1.259521],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_4a39e0a70434bccc109ef2cbbe322853 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cae5ade807079c99e035fa84f7a5d9a0.setIcon(icon_4a39e0a70434bccc109ef2cbbe322853);
+        
+    
+            marker_cae5ade807079c99e035fa84f7a5d9a0.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Haute-Vienne<br><b>Score:</b> 34.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9dc5182188160918bdf2cd32ce522e39 = L.marker(
+                [46.24177, 6.433879],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_1b46121362e4fc5a4d3628dc6b470a97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9dc5182188160918bdf2cd32ce522e39.setIcon(icon_1b46121362e4fc5a4d3628dc6b470a97);
+        
+    
+            marker_9dc5182188160918bdf2cd32ce522e39.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Hautes-Alpes<br><b>Score:</b> 28.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_61ce2522226c9ccef45fb9dbb3a7a581 = L.marker(
+                [43.401574, 3.704402],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_633f572e4b94dab95130bb010c7e5677 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_61ce2522226c9ccef45fb9dbb3a7a581.setIcon(icon_633f572e4b94dab95130bb010c7e5677);
+        
+    
+            marker_61ce2522226c9ccef45fb9dbb3a7a581.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Hautes-Pyrénées<br><b>Score:</b> 28.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_72c99f96f180fb629300cd5b8905c8c7 = L.marker(
+                [47.296167, -1.357286],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_e60c39103ca8fe3e162196b80119d11e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_72c99f96f180fb629300cd5b8905c8c7.setIcon(icon_e60c39103ca8fe3e162196b80119d11e);
+        
+    
+            marker_72c99f96f180fb629300cd5b8905c8c7.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Hérault<br><b>Score:</b> 35.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a8225d3c106f725633a70f8acbb25f33 = L.marker(
+                [47.198227, -1.664069],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_559d5cdae10cbe752e93706aeaa4995c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a8225d3c106f725633a70f8acbb25f33.setIcon(icon_559d5cdae10cbe752e93706aeaa4995c);
+        
+    
+            marker_a8225d3c106f725633a70f8acbb25f33.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Indre<br><b>Score:</b> 65.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a35663e260839ef359adc3f840fbc45 = L.marker(
+                [47.404818, 0.699401],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_323c3dd711002c585951212e7677aec7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a35663e260839ef359adc3f840fbc45.setIcon(icon_323c3dd711002c585951212e7677aec7);
+        
+    
+            marker_5a35663e260839ef359adc3f840fbc45.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Indre-et-Loire<br><b>Score:</b> 34.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f2706c46cf1377f747813b0377603cb6 = L.marker(
+                [44.928801, -0.164821],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_a875ced1f0b62b6f0ef70dc129daed20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f2706c46cf1377f747813b0377603cb6.setIcon(icon_a875ced1f0b62b6f0ef70dc129daed20);
+        
+    
+            marker_f2706c46cf1377f747813b0377603cb6.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Jura<br><b>Score:</b> 28.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_db1d8de26b9787b0cbe4a3671ea11665 = L.marker(
+                [43.239735, 5.364691],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_3984a36758c8ed9f1154e7fd0ce60da3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_db1d8de26b9787b0cbe4a3671ea11665.setIcon(icon_3984a36758c8ed9f1154e7fd0ce60da3);
+        
+    
+            marker_db1d8de26b9787b0cbe4a3671ea11665.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Outre-mer<br><b>Score:</b> 109.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5cdb6009ef63812e040885da17ad4d3f = L.marker(
+                [44.478396, 1.001402],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_7e4b59e4f7b9b8fb0e2b11f0f34d4d89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5cdb6009ef63812e040885da17ad4d3f.setIcon(icon_7e4b59e4f7b9b8fb0e2b11f0f34d4d89);
+        
+    
+            marker_5cdb6009ef63812e040885da17ad4d3f.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Landes<br><b>Score:</b> 26.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4f92221228f560d94a8150bf5b7f28b4 = L.marker(
+                [47.362207, 0.674311],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_02eeb78a69ce7b1fc29d1cad7288d2f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4f92221228f560d94a8150bf5b7f28b4.setIcon(icon_02eeb78a69ce7b1fc29d1cad7288d2f1);
+        
+    
+            marker_4f92221228f560d94a8150bf5b7f28b4.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Loir-et-Cher<br><b>Score:</b> 42.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_72b347caa9559a0878076d47a917b006 = L.marker(
+                [48.2103, 0.748079],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_e5df114222f73739f7e3822127727fbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_72b347caa9559a0878076d47a917b006.setIcon(icon_e5df114222f73739f7e3822127727fbd);
+        
+    
+            marker_72b347caa9559a0878076d47a917b006.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Loiret<br><b>Score:</b> 37.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1081fde114a5a83a8deef9c423991d48 = L.marker(
+                [16.207767, -61.497477],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_861546a183bbf6594d65e6e2068fa36d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1081fde114a5a83a8deef9c423991d48.setIcon(icon_861546a183bbf6594d65e6e2068fa36d);
+        
+    
+            marker_1081fde114a5a83a8deef9c423991d48.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Lot<br><b>Score:</b> 25.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5e3230576f305dd63cb5748967168bbc = L.marker(
+                [47.795858, 7.175892],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_f974ce41629d36f00fc9c60877fba506 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5e3230576f305dd63cb5748967168bbc.setIcon(icon_f974ce41629d36f00fc9c60877fba506);
+        
+    
+            marker_5e3230576f305dd63cb5748967168bbc.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Lot-et-Garonne<br><b>Score:</b> 29.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_82044c8566427187d30662fcc4912c0b = L.marker(
+                [43.629945, 1.452587],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_47038abc01039b647a68fdfd4bed0d95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_82044c8566427187d30662fcc4912c0b.setIcon(icon_47038abc01039b647a68fdfd4bed0d95);
+        
+    
+            marker_82044c8566427187d30662fcc4912c0b.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Lozère<br><b>Score:</b> 26.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c28c62263b880e79222b8a4c7876b381 = L.marker(
+                [46.366939, 4.111601],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_3733a1f81f7e5632b32c6e2a222a16a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c28c62263b880e79222b8a4c7876b381.setIcon(icon_3733a1f81f7e5632b32c6e2a222a16a5);
+        
+    
+            marker_c28c62263b880e79222b8a4c7876b381.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Manche<br><b>Score:</b> 34.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b4e45b1d6b22f7570a6e8b9ebc8afebe = L.marker(
+                [47.096564, -1.727034],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_be38d1d663fe25dd23b7555ae1aa5b5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b4e45b1d6b22f7570a6e8b9ebc8afebe.setIcon(icon_be38d1d663fe25dd23b7555ae1aa5b5f);
+        
+    
+            marker_b4e45b1d6b22f7570a6e8b9ebc8afebe.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Marne<br><b>Score:</b> 37.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aa536b1ec1dfec46fc2d08c34ac22d0e = L.marker(
+                [43.239735, 5.364691],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_8330a065c2301ec9cbbffa103b0f9177 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aa536b1ec1dfec46fc2d08c34ac22d0e.setIcon(icon_8330a065c2301ec9cbbffa103b0f9177);
+        
+    
+            marker_aa536b1ec1dfec46fc2d08c34ac22d0e.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Outre-mer<br><b>Score:</b> 156.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_da272d312a2298edbd6d72fbf896bf22 = L.marker(
+                [48.303387, -0.617261],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_40dd12b32e71442ce0efc189b7a3b980 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_da272d312a2298edbd6d72fbf896bf22.setIcon(icon_40dd12b32e71442ce0efc189b7a3b980);
+        
+    
+            marker_da272d312a2298edbd6d72fbf896bf22.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Mayenne<br><b>Score:</b> 38.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1b8c2dca6a977bd219bca02d38d816ff = L.marker(
+                [43.239735, 5.364691],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_9e744048524cd0bbf0a9800d02d88965 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1b8c2dca6a977bd219bca02d38d816ff.setIcon(icon_9e744048524cd0bbf0a9800d02d88965);
+        
+    
+            marker_1b8c2dca6a977bd219bca02d38d816ff.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Outre-mer<br><b>Score:</b> 169.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e2a262eda424e9113bac9d939c7b8423 = L.marker(
+                [49.204714, 5.930193],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_2c28a5c29c8ebe5bfe9d89045ef32f3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e2a262eda424e9113bac9d939c7b8423.setIcon(icon_2c28a5c29c8ebe5bfe9d89045ef32f3c);
+        
+    
+            marker_e2a262eda424e9113bac9d939c7b8423.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Meurthe-et-Moselle<br><b>Score:</b> 35.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0b7880f2304fb8428ae10abdc33e6a9a = L.marker(
+                [43.587137, 1.419465],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_35773c03399f96ee1b84824a9dd7172e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0b7880f2304fb8428ae10abdc33e6a9a.setIcon(icon_35773c03399f96ee1b84824a9dd7172e);
+        
+    
+            marker_0b7880f2304fb8428ae10abdc33e6a9a.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Moselle<br><b>Score:</b> 40.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6a7a2c82812424b3a5d7ce56bfbed7bb = L.marker(
+                [46.408362, 4.907554],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_10f3f2d0da43e65ab989749b64c5205e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6a7a2c82812424b3a5d7ce56bfbed7bb.setIcon(icon_10f3f2d0da43e65ab989749b64c5205e);
+        
+    
+            marker_6a7a2c82812424b3a5d7ce56bfbed7bb.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Nièvre<br><b>Score:</b> 37.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_12f81f89cbbcfcedceb8b1b49cb42997 = L.marker(
+                [44.238777, 0.409467],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_55a92c1a1c202c80fde3e3f82cbefe8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_12f81f89cbbcfcedceb8b1b49cb42997.setIcon(icon_55a92c1a1c202c80fde3e3f82cbefe8f);
+        
+    
+            marker_12f81f89cbbcfcedceb8b1b49cb42997.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Nord<br><b>Score:</b> 42.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9d54932e4d2e5b89a1d350e1e065ec79 = L.marker(
+                [48.838065, 2.409586],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_dda1786f68de26618838b2fb748b6c5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9d54932e4d2e5b89a1d350e1e065ec79.setIcon(icon_dda1786f68de26618838b2fb748b6c5c);
+        
+    
+            marker_9d54932e4d2e5b89a1d350e1e065ec79.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Nouvelle-Calédonie<br><b>Score:</b> 808.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a927df0ba26e8828d44175dbff8e877 = L.marker(
+                [49.253076, 5.472451],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_ff72facc95a23ebe80faeccd7fcb7be7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a927df0ba26e8828d44175dbff8e877.setIcon(icon_ff72facc95a23ebe80faeccd7fcb7be7);
+        
+    
+            marker_3a927df0ba26e8828d44175dbff8e877.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Orne<br><b>Score:</b> 33.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bf2a6684572e1f02d1afee02a61fb1fc = L.marker(
+                [45.787181, 3.06056],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_176eabb92e1f4e49bcc7484c135c0807 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bf2a6684572e1f02d1afee02a61fb1fc.setIcon(icon_176eabb92e1f4e49bcc7484c135c0807);
+        
+    
+            marker_bf2a6684572e1f02d1afee02a61fb1fc.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Puy-de-Dôme<br><b>Score:</b> 31.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b066bbe163fb0b9c085295670f8ac808 = L.marker(
+                [43.190161, -0.222166],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_30521d1f49edada58bd2eb79b6ca738d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b066bbe163fb0b9c085295670f8ac808.setIcon(icon_30521d1f49edada58bd2eb79b6ca738d);
+        
+    
+            marker_b066bbe163fb0b9c085295670f8ac808.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Pyrénées-Atlantiques<br><b>Score:</b> 28.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a7931890218586f114d017cb7dc721e3 = L.marker(
+                [43.407957, 3.711567],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_4f20b66a37e156d57ec1911785b32210 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a7931890218586f114d017cb7dc721e3.setIcon(icon_4f20b66a37e156d57ec1911785b32210);
+        
+    
+            marker_a7931890218586f114d017cb7dc721e3.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Pyrénées-Orientales<br><b>Score:</b> 34.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_16e1caafa7749a536a0c3dd5aace067f = L.marker(
+                [47.84771, -0.439938],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_ed3d9b2005ad8ebeee058de21057d51b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16e1caafa7749a536a0c3dd5aace067f.setIcon(icon_ed3d9b2005ad8ebeee058de21057d51b);
+        
+    
+            marker_16e1caafa7749a536a0c3dd5aace067f.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Rhône<br><b>Score:</b> 32.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1a41d5dab95fb62fcde5f44fa5d2d60d = L.marker(
+                [43.516885, -1.336597],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_5e0a3dcc521bf2930884aa1af84c624a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1a41d5dab95fb62fcde5f44fa5d2d60d.setIcon(icon_5e0a3dcc521bf2930884aa1af84c624a);
+        
+    
+            marker_1a41d5dab95fb62fcde5f44fa5d2d60d.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Saint-Martin/Saint-Barthélemy<br><b>Score:</b> 214.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_04e35489111abbde5951208c9867e923 = L.marker(
+                [48.651196, -1.995025],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_bc7906bc6511ac238e792aa78b276afa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_04e35489111abbde5951208c9867e923.setIcon(icon_bc7906bc6511ac238e792aa78b276afa);
+        
+    
+            marker_04e35489111abbde5951208c9867e923.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Saint-Pierre-et-Miquelon<br><b>Score:</b> 92.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_158d745711663a074f603913334a1ec6 = L.marker(
+                [43.539836, 0.5023],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_351cfcc0364cd2435f2bdc80e5982d7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_158d745711663a074f603913334a1ec6.setIcon(icon_351cfcc0364cd2435f2bdc80e5982d7d);
+        
+    
+            marker_158d745711663a074f603913334a1ec6.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Sarthe<br><b>Score:</b> 37.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c6efc947bd5e1670aaf207626f07312f = L.marker(
+                [44.617348, 0.181972],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_b6a02512b67099f63a53e0ed98df45eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c6efc947bd5e1670aaf207626f07312f.setIcon(icon_b6a02512b67099f63a53e0ed98df45eb);
+        
+    
+            marker_c6efc947bd5e1670aaf207626f07312f.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Savoie<br><b>Score:</b> 29.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f74c8a36fcdd869a5b080f049d83eb48 = L.marker(
+                [46.579969, 4.972598],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_063963c6f8a31f47d230cad9b56f139c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f74c8a36fcdd869a5b080f049d83eb48.setIcon(icon_063963c6f8a31f47d230cad9b56f139c);
+        
+    
+            marker_f74c8a36fcdd869a5b080f049d83eb48.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Saône-et-Loire<br><b>Score:</b> 32.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_41d427f1a454a569495af901a923c98c = L.marker(
+                [49.50775, 0.173309],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_0acee19d958e2dc64c7689f146ac31c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_41d427f1a454a569495af901a923c98c.setIcon(icon_0acee19d958e2dc64c7689f146ac31c4);
+        
+    
+            marker_41d427f1a454a569495af901a923c98c.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Seine-Maritime<br><b>Score:</b> 39.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3bcbf984f89c8fdf51cd7e0a469aaf98 = L.marker(
+                [48.923559, 2.338941],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_1d279d27d9cff15ab04e1e5aa8e12a7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3bcbf984f89c8fdf51cd7e0a469aaf98.setIcon(icon_1d279d27d9cff15ab04e1e5aa8e12a7e);
+        
+    
+            marker_3bcbf984f89c8fdf51cd7e0a469aaf98.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Seine-Saint-Denis<br><b>Score:</b> 50.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2a302fe7b08b7e01765eeae394c51421 = L.marker(
+                [44.976592, -0.355496],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_efe439b72f7d3afdc9b77dcf0ee5f5fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2a302fe7b08b7e01765eeae394c51421.setIcon(icon_efe439b72f7d3afdc9b77dcf0ee5f5fc);
+        
+    
+            marker_2a302fe7b08b7e01765eeae394c51421.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Tarn<br><b>Score:</b> 36.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_91be68d931956bd7d2aa3f76cc1a7428 = L.marker(
+                [44.218719, -1.290348],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_18c6ab742711705f535b7d01135733dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_91be68d931956bd7d2aa3f76cc1a7428.setIcon(icon_18c6ab742711705f535b7d01135733dd);
+        
+    
+            marker_91be68d931956bd7d2aa3f76cc1a7428.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Tarn-et-Garonne<br><b>Score:</b> 29.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_920cefc92faf58eeefdeb94d97abcc14 = L.marker(
+                [47.652966, 6.844503],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_65e6921d10f2ddba28d19f08d0e28b26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_920cefc92faf58eeefdeb94d97abcc14.setIcon(icon_65e6921d10f2ddba28d19f08d0e28b26);
+        
+    
+            marker_920cefc92faf58eeefdeb94d97abcc14.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Territoire de Belfort<br><b>Score:</b> 42.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2c97194700005b2a547235b60332c75b = L.marker(
+                [43.584835, 1.327291],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_c87753a95e14fcc6fcbc98a34224825d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2c97194700005b2a547235b60332c75b.setIcon(icon_c87753a95e14fcc6fcbc98a34224825d);
+        
+    
+            marker_2c97194700005b2a547235b60332c75b.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Val-d'Oise<br><b>Score:</b> 38.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d2eb141fcea3d876a1ebd9bb1edc9313 = L.marker(
+                [48.789323, 2.492222],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_d9df9ca916989cdd675f522944dfdf81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d2eb141fcea3d876a1ebd9bb1edc9313.setIcon(icon_d9df9ca916989cdd675f522944dfdf81);
+        
+    
+            marker_d2eb141fcea3d876a1ebd9bb1edc9313.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Val-de-Marne<br><b>Score:</b> 43.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_89b7770fa358f8dba1432aecb4572453 = L.marker(
+                [48.206701, -4.540817],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_84831717520d0e00a56d77e29be5eee7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_89b7770fa358f8dba1432aecb4572453.setIcon(icon_84831717520d0e00a56d77e29be5eee7);
+        
+    
+            marker_89b7770fa358f8dba1432aecb4572453.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Var<br><b>Score:</b> 38.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4591b398c0e13eb44c9b4ad40a89cf0c = L.marker(
+                [46.414433, 5.889005],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_ce86ea6ad72125a202dbf05606e8e058 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4591b398c0e13eb44c9b4ad40a89cf0c.setIcon(icon_ce86ea6ad72125a202dbf05606e8e058);
+        
+    
+            marker_4591b398c0e13eb44c9b4ad40a89cf0c.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Vaucluse<br><b>Score:</b> 38.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8d9dd2a5ed67f40038f7bf9febe47613 = L.marker(
+                [45.802269, 1.125303],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_9155de0dffba543f085c288a140867ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8d9dd2a5ed67f40038f7bf9febe47613.setIcon(icon_9155de0dffba543f085c288a140867ce);
+        
+    
+            marker_8d9dd2a5ed67f40038f7bf9febe47613.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Vienne<br><b>Score:</b> 33.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b2b99832ae948951b3c986c7ba8a1c78 = L.marker(
+                [47.984286, -4.090435],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_2afa9ac9253e07f7b181334acb39739b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b2b99832ae948951b3c986c7ba8a1c78.setIcon(icon_2afa9ac9253e07f7b181334acb39739b);
+        
+    
+            marker_b2b99832ae948951b3c986c7ba8a1c78.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Wallis et Futuna<br><b>Score:</b> 77.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_44ea23573dda89132bff9915807eec38 = L.marker(
+                [43.571407, 1.413493],
+                {
+}
+            ).addTo(marker_cluster_1f0449ce075a17eb696b62d2982a527f);
+        
+    
+            var icon_f3a264062f893e2f8f9f7aeed0d2f066 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_44ea23573dda89132bff9915807eec38.setIcon(icon_f3a264062f893e2f8f9f7aeed0d2f066);
+        
+    
+            marker_44ea23573dda89132bff9915807eec38.bindTooltip(
+                `<div>
+                     <b>Blancs_nuls et abstentions<br><b>Département:</b> Yonne<br><b>Score:</b> 40.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_1f0449ce075a17eb696b62d2982a527f.addTo(feature_group_b8f5eb95c75a41219b3262d080d11267);
+        
+    
+            feature_group_b8f5eb95c75a41219b3262d080d11267.addTo(map_4aea64c2d1c0f0b8579f006d65d71e1c);
+        
+    
+            var feature_group_e0bdc5e013a9550c2b4b4a97d1b1cb07 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_cluster_792c754c22e8446232d94d1dfce6665c = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_0445ba5f40fcfc919e4d35437f979f1e = L.marker(
+                [48.762699, 1.929265],
+                {
+}
+            ).addTo(marker_cluster_792c754c22e8446232d94d1dfce6665c);
+        
+    
+            var icon_21e258b0265834b25a34baf10ff8f188 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0445ba5f40fcfc919e4d35437f979f1e.setIcon(icon_21e258b0265834b25a34baf10ff8f188);
+        
+    
+            marker_0445ba5f40fcfc919e4d35437f979f1e.bindTooltip(
+                `<div>
+                     <b>Emmanuel MACRON<br><b>Département:</b> Côtes-d'Armor<br><b>Score:</b> 30.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6346ee4a36406c603c452f386f731094 = L.marker(
+                [48.828416, 2.250438],
+                {
+}
+            ).addTo(marker_cluster_792c754c22e8446232d94d1dfce6665c);
+        
+    
+            var icon_2575e70c1a2b30cbd9df5c865a4741b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6346ee4a36406c603c452f386f731094.setIcon(icon_2575e70c1a2b30cbd9df5c865a4741b0);
+        
+    
+            marker_6346ee4a36406c603c452f386f731094.bindTooltip(
+                `<div>
+                     <b>Emmanuel MACRON<br><b>Département:</b> Hauts-de-Seine<br><b>Score:</b> 36.4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6bfccedf4571f007cb59a12ca4b87990 = L.marker(
+                [48.65794, -1.974656],
+                {
+}
+            ).addTo(marker_cluster_792c754c22e8446232d94d1dfce6665c);
+        
+    
+            var icon_b483bd9d986d1a6794aabe6a2202858e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6bfccedf4571f007cb59a12ca4b87990.setIcon(icon_b483bd9d986d1a6794aabe6a2202858e);
+        
+    
+            marker_6bfccedf4571f007cb59a12ca4b87990.bindTooltip(
+                `<div>
+                     <b>Emmanuel MACRON<br><b>Département:</b> Ille-et-Vilaine<br><b>Score:</b> 34.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0cfbcb6b1516fcda0af40da82f76a0cc = L.marker(
+                [47.164514, -1.469476],
+                {
+}
+            ).addTo(marker_cluster_792c754c22e8446232d94d1dfce6665c);
+        
+    
+            var icon_860814786f84ec3ab483d6ef98f5b1d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0cfbcb6b1516fcda0af40da82f76a0cc.setIcon(icon_860814786f84ec3ab483d6ef98f5b1d8);
+        
+    
+            marker_0cfbcb6b1516fcda0af40da82f76a0cc.bindTooltip(
+                `<div>
+                     <b>Emmanuel MACRON<br><b>Département:</b> Maine-et-Loire<br><b>Score:</b> 34.8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_68969b783d1af84612120087b93521ff = L.marker(
+                [-20.911767, 55.493472],
+                {
+}
+            ).addTo(marker_cluster_792c754c22e8446232d94d1dfce6665c);
+        
+    
+            var icon_1a3c6ff5bad48b07ff77b7065a849487 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_68969b783d1af84612120087b93521ff.setIcon(icon_1a3c6ff5bad48b07ff77b7065a849487);
+        
+    
+            marker_68969b783d1af84612120087b93521ff.bindTooltip(
+                `<div>
+                     <b>Emmanuel MACRON<br><b>Département:</b> Morbihan<br><b>Score:</b> 32.2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ea1eeeece34e5707ba5ae4448e06839f = L.marker(
+                [46.506181, -0.66528],
+                {
+}
+            ).addTo(marker_cluster_792c754c22e8446232d94d1dfce6665c);
+        
+    
+            var icon_7d0e4f8bb85023b3731c352783849405 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ea1eeeece34e5707ba5ae4448e06839f.setIcon(icon_7d0e4f8bb85023b3731c352783849405);
+        
+    
+            marker_ea1eeeece34e5707ba5ae4448e06839f.bindTooltip(
+                `<div>
+                     <b>Emmanuel MACRON<br><b>Département:</b> Vendée<br><b>Score:</b> 35.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_18e40b1145e7b58dc7b56324a3b5dfe7 = L.marker(
+                [48.774224, 2.001175],
+                {
+}
+            ).addTo(marker_cluster_792c754c22e8446232d94d1dfce6665c);
+        
+    
+            var icon_1dacfe53c88bb7be9695645e34af14ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_18e40b1145e7b58dc7b56324a3b5dfe7.setIcon(icon_1dacfe53c88bb7be9695645e34af14ee);
+        
+    
+            marker_18e40b1145e7b58dc7b56324a3b5dfe7.bindTooltip(
+                `<div>
+                     <b>Emmanuel MACRON<br><b>Département:</b> Yvelines<br><b>Score:</b> 32.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_792c754c22e8446232d94d1dfce6665c.addTo(feature_group_e0bdc5e013a9550c2b4b4a97d1b1cb07);
+        
+    
+            feature_group_e0bdc5e013a9550c2b4b4a97d1b1cb07.addTo(map_4aea64c2d1c0f0b8579f006d65d71e1c);
+        
+    
+            var feature_group_b853f7f28da9eec0433ea5ce69459a0e = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_cluster_2ac816a990f95c7603d6ae785c597e56 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_a5e9adc3148678a0224bdea9be8191f8 = L.marker(
+                [46.60821, -1.456851],
+                {
+}
+            ).addTo(marker_cluster_2ac816a990f95c7603d6ae785c597e56);
+        
+    
+            var icon_57514ef0b0048886d64ddfb7c9ca8cea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a5e9adc3148678a0224bdea9be8191f8.setIcon(icon_57514ef0b0048886d64ddfb7c9ca8cea);
+        
+    
+            marker_a5e9adc3148678a0224bdea9be8191f8.bindTooltip(
+                `<div>
+                     <b>Marine LE PEN<br><b>Département:</b> Ardennes<br><b>Score:</b> 36.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6a20141abcb788b69a6aec3205f2c1b5 = L.marker(
+                [46.25079, 1.834699],
+                {
+}
+            ).addTo(marker_cluster_2ac816a990f95c7603d6ae785c597e56);
+        
+    
+            var icon_019938078149608e53343b7845091f5a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6a20141abcb788b69a6aec3205f2c1b5.setIcon(icon_019938078149608e53343b7845091f5a);
+        
+    
+            marker_6a20141abcb788b69a6aec3205f2c1b5.bindTooltip(
+                `<div>
+                     <b>Marine LE PEN<br><b>Département:</b> Aube<br><b>Score:</b> 36.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c1af2ca75e43df33287cbb876a1657f9 = L.marker(
+                [43.492771, 4.999235],
+                {
+}
+            ).addTo(marker_cluster_2ac816a990f95c7603d6ae785c597e56);
+        
+    
+            var icon_baa52f40897b7fabd17abb20702d7ea7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c1af2ca75e43df33287cbb876a1657f9.setIcon(icon_baa52f40897b7fabd17abb20702d7ea7);
+        
+    
+            marker_c1af2ca75e43df33287cbb876a1657f9.bindTooltip(
+                `<div>
+                     <b>Marine LE PEN<br><b>Département:</b> Eure<br><b>Score:</b> 33.6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4df81b0696be835c6960a4b822443a6c = L.marker(
+                [48.113174, 7.416128],
+                {
+}
+            ).addTo(marker_cluster_2ac816a990f95c7603d6ae785c597e56);
+        
+    
+            var icon_9908efb08e8cea04d93d2578be6d16f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4df81b0696be835c6960a4b822443a6c.setIcon(icon_9908efb08e8cea04d93d2578be6d16f3);
+        
+    
+            marker_4df81b0696be835c6960a4b822443a6c.bindTooltip(
+                `<div>
+                     <b>Marine LE PEN<br><b>Département:</b> Haute-Marne<br><b>Score:</b> 37.1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a136c22fd3c807df81476e9f4066620f = L.marker(
+                [47.473904, 5.379161],
+                {
+}
+            ).addTo(marker_cluster_2ac816a990f95c7603d6ae785c597e56);
+        
+    
+            var icon_53bc9919d726668b14ece06854bec673 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a136c22fd3c807df81476e9f4066620f.setIcon(icon_53bc9919d726668b14ece06854bec673);
+        
+    
+            marker_a136c22fd3c807df81476e9f4066620f.bindTooltip(
+                `<div>
+                     <b>Marine LE PEN<br><b>Département:</b> Haute-Saône<br><b>Score:</b> 35.5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4f0d2663bf09debfe8a222405eae589d = L.marker(
+                [43.582776, 1.484166],
+                {
+}
+            ).addTo(marker_cluster_2ac816a990f95c7603d6ae785c597e56);
+        
+    
+            var icon_bc045eec6e19f9bd5ae8b5502b56646d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4f0d2663bf09debfe8a222405eae589d.setIcon(icon_bc045eec6e19f9bd5ae8b5502b56646d);
+        
+    
+            marker_4f0d2663bf09debfe8a222405eae589d.bindTooltip(
+                `<div>
+                     <b>Marine LE PEN<br><b>Département:</b> Meuse<br><b>Score:</b> 36.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_2ac816a990f95c7603d6ae785c597e56.addTo(feature_group_b853f7f28da9eec0433ea5ce69459a0e);
+        
+    
+            feature_group_b853f7f28da9eec0433ea5ce69459a0e.addTo(map_4aea64c2d1c0f0b8579f006d65d71e1c);
+        
+    
+            var feature_group_7fe4e7089c4d9d503e0ac196250033a3 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_cluster_adf24d0b82ed415e17290ed8e53e7f52 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_a8ecda341eff211eda5a5ae7c81017bf = L.marker(
+                [43.581795, 1.482163],
+                {
+}
+            ).addTo(marker_cluster_adf24d0b82ed415e17290ed8e53e7f52);
+        
+    
+            var icon_fb65cc5a43aaaa294f7007713832450c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a8ecda341eff211eda5a5ae7c81017bf.setIcon(icon_fb65cc5a43aaaa294f7007713832450c);
+        
+    
+            marker_a8ecda341eff211eda5a5ae7c81017bf.bindTooltip(
+                `<div>
+                     <b>Jean-Luc MÉLENCHON<br><b>Département:</b> Ariège<br><b>Score:</b> 28.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_adf24d0b82ed415e17290ed8e53e7f52.addTo(feature_group_7fe4e7089c4d9d503e0ac196250033a3);
+        
+    
+            feature_group_7fe4e7089c4d9d503e0ac196250033a3.addTo(map_4aea64c2d1c0f0b8579f006d65d71e1c);
+        
+    
+            var layer_control_abf963d2953b3cadf0f2b27c6b03c457_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_92eeb2549b07ecd61c54737aae7c74f8,
+                },
+                overlays :  {
+                    "Blancs_nuls et abstentions" : feature_group_b8f5eb95c75a41219b3262d080d11267,
+                    "Emmanuel MACRON" : feature_group_e0bdc5e013a9550c2b4b4a97d1b1cb07,
+                    "Marine LE PEN" : feature_group_b853f7f28da9eec0433ea5ce69459a0e,
+                    "Jean-Luc M\u00c9LENCHON" : feature_group_7fe4e7089c4d9d503e0ac196250033a3,
+                },
+            };
+            let layer_control_abf963d2953b3cadf0f2b27c6b03c457 = L.control.layers(
+                layer_control_abf963d2953b3cadf0f2b27c6b03c457_layers.base_layers,
+                layer_control_abf963d2953b3cadf0f2b27c6b03c457_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_4aea64c2d1c0f0b8579f006d65d71e1c);
+
+        
+</script>
+</html>
