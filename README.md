@@ -34,7 +34,8 @@ Les données proviennent du portail officiel [data.gouv.fr](https://www.data.gou
 ## 📊 Résultats
 
 1. **Dashboard Power BI**<br>
-Vous trouverez les résultas dans les détails [ici](lien dashboard github et pdf google)<br>
+Vous trouverez les résultas dans les détails [ici]([lien dashboard github et pdf google](https://github.com/Diaure/Mission-Data/blob/main/Dashboard/Mission_DATA-Dashboard.pdf)).<br>
+[Lien vers le fichier power BI](https://github.com/Diaure/Mission-Data/blob/main/Dashboard/Dashboard.pbix).<br>
 🔹 Évolution des votes blancs et nuls depuis 1995.<br>
 
 ![tffgf](https://github.com/Diaure/Mission-Data/blob/main/Images/Evolution%20nombre%20de%20votes%20BN%20et%20BNA.PNG) <br>
@@ -53,7 +54,6 @@ Vous trouverez les résultas dans les détails [ici](lien dashboard github et pd
 
 2. **Cartes interactives des résultats**<br>
 [Ici](https://mission-data-cartographies.streamlit.app/) vous trouverez les cartes interactives.<br>
-[Version pdf - Dashboard](https://github.com/Diaure/Mission-Data/blob/main/Dashboard/Mission_DATA-Dashboard.pdf).<br>
 Les résultats par départements et communes ont été regroupés pour une meilleure visualisation.<br>
 N'hésitez pas à interagir avec les cartes (zoom sur des groupes précis) afin de visualiser les résultats plus en détail.<br>
 🔹 Communes où ces votes dépassent 5%.<br>
@@ -88,7 +88,8 @@ N'hésitez pas à interagir avec les cartes (zoom sur des groupes précis) afin 
 ## 🏆 **Auteurs & Contributions**
 
 Projet réalisé dans le cadre d’un projet scolaire de Data Analyst.<br>
-Contributions : [Aurélie GABU](www.linkedin.com/in/aurelie-gabu) - [GitHub](https://github.com/Diaure/Projects)
+Contributions : [Aurélie GABU](www.linkedin.com/in/aurelie-gabu) - [GitHub](https://github.com/Diaure/Projects)<br>
+[Mariétou]()<br>
 
 ## 📌 Sources
 
