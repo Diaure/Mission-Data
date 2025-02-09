@@ -52,6 +52,10 @@ Vous trouverez les résultas dans les détails [ici](lien dashboard github et pd
 ![tffgf](https://github.com/Diaure/Mission-Data/blob/main/Images/Impact%20local%20votes%20BNA.PNG) <br>
 
 2. **Cartes interactives des résultats**<br>
+[Ici](https://mission-data-cartographies.streamlit.app/) vous trouverez les cartes interactives.<br>
+[Version pdf - Dashboard](https://github.com/Diaure/Mission-Data/blob/main/Dashboard/Mission_DATA-Dashboard.pdf).<br>
+Les résultats par départements et communes ont été regroupés pour une meilleure visualisation.<br>
+N'hésitez pas à interagir avec les cartes (zoom sur des groupes précis) afin de visualiser les résultats plus en détail.<br>
 🔹 Communes où ces votes dépassent 5%.<br>
 🔹 Départements où ces votes atteignent le second tour.<br>
 
@@ -84,12 +88,11 @@ Vous trouverez les résultas dans les détails [ici](lien dashboard github et pd
 ## 🏆 **Auteurs & Contributions**
 
 Projet réalisé dans le cadre d’un projet scolaire de Data Analyst.<br>
-Contributions : [Aurélie GABU]() - [GitHub](https://github.com/Diaure/Projects) / [LinkedIn]()
+Contributions : [Aurélie GABU](www.linkedin.com/in/aurelie-gabu) - [GitHub](https://github.com/Diaure/Projects)
 
 ## 📌 Sources
 
 Données issues de [data.gouv.fr](https://www.data.gouv.fr/fr/pages/donnees-des-elections/).
-
 
 ## 📜 Licence
 
