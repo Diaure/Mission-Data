@@ -39,7 +39,7 @@ Dans les livrables les sigles suivants seront utilisés:<br>
 ## 📊 Résultats
 
 1. **Dashboard Power BI**<br>
-Vous trouverez les résultas dans les détails [ici]([lien dashboard github et pdf google](https://github.com/Diaure/Mission-Data/blob/main/Dashboard/Mission_DATA-Dashboard.pdf)).<br>
+Vous trouverez les résultas dans les détails [ici](https://github.com/Diaure/Mission-Data/blob/main/Dashboard/Mission_DATA-Dashboard.pdf).<br>
 [Lien vers le fichier power BI](https://github.com/Diaure/Mission-Data/blob/main/Dashboard/Dashboard.pbix).<br>
 🔹 Évolution des votes blancs et nuls depuis 1995.<br>
 
