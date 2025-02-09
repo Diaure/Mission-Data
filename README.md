@@ -2,7 +2,7 @@
 
 ## 🏛 **Contexte du Projet**
 
-**Client** : Association Citoyenne (fictive) pour la Reconnaissance du Vote Blanc et Nul
+**Client** : Association Citoyenne (fictive) pour la Reconnaissance du Vote Blanc, Nul et Absentations
 
 **Objectif** : Étudier l'évolution des votes blancs, nuls et de l'abstention en France depuis 1995 et leur impact potentiel sur les élections présidentielles.
 
@@ -37,19 +37,19 @@ Les données proviennent du portail officiel [data.gouv.fr](https://www.data.gou
 Vous trouverez les résultas dans les détails [ici](lien dashboard github et pdf google)<br>
 🔹 Évolution des votes blancs et nuls depuis 1995.<br>
 
-![tffgf](./images/Evolution%20nombre%20de%20votes%20BN%20et%20BNA.PNG) <br>
+![tffgf](https://github.com/Diaure/Mission-Data/blob/main/Images/Evolution%20nombre%20de%20votes%20BN%20et%20BNA.PNG) <br>
 
-![tffgf](./images/Evolution%20part%20BNA%20inscrits%20votants%20exprimés.PNG) <br>
+![tffgf](https://github.com/Diaure/Mission-Data/blob/main/Images/Evolution%20part%20BNA%20inscrits%20votants%20exprim%C3%A9s.PNG) <br>
 
 🔹 Corrélation entre votes blancs, nuls et abstention.<br>
 
-![tffgf](./images/correlation.PNG) <br>
+![tffgf](https://github.com/Diaure/Mission-Data/blob/main/Images/correlation.PNG) <br>
 
 🔹 Impact local des votes blancs et nuls sur l’élection de 2022.<br>
 
-![tffgf](./images/Impact%20local%20votes%20BN.PNG) <br>
+![tffgf](https://github.com/Diaure/Mission-Data/blob/main/Images/Impact%20local%20votes%20BN.PNG) <br>
 
-![tffgf](./images/Impact%20local%20votes%20BNA.PNG) <br>
+![tffgf](https://github.com/Diaure/Mission-Data/blob/main/Images/Impact%20local%20votes%20BNA.PNG) <br>
 
 2. **Cartes interactives des résultats**<br>
 🔹 Communes où ces votes dépassent 5%.<br>
