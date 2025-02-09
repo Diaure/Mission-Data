@@ -9,10 +9,10 @@ from streamlit_folium import folium_static
 def load_data(file_path):
     return pd.read_csv(file_path, sep=",", low_memory=False).dropna()
 
-tour1_2022 = load_data("C:/Users/Lenovo/Documents/WCS/GitHub/Mission_DATA/CSV/meilleurs_candidats_tour1_22.csv")
+tour1_2022 = load_data("https://github.com/Diaure/Mission-Data/blob/main/CSV/meilleurs_candidats_tour1_22.csv")
 tour1_2022_sans_nan = tour1_2022.dropna()
 
-BN_BNA_sup_5_2022 = load_data("C:/Users/Lenovo/Documents/WCS/GitHub/Mission_DATA/CSV/BN_BNA_sup_5_2022.csv")
+BN_BNA_sup_5_2022 = load_data("https://github.com/Diaure/Mission-Data/blob/main/CSV/BN_BNA_sup_5_2022.csv")
 sup5_BN_BNA_sans_nan = BN_BNA_sup_5_2022.dropna()
 sup5_BN_BNA_sans_nan['Tour'] = sup5_BN_BNA_sans_nan['Tour'].astype(str)
 tours = list(sup5_BN_BNA_sans_nan['Tour'].unique()) 
