@@ -1,4 +1,4 @@
-# 📊 **Analyse des Votes Blancs, Nuls et de l'Abstention en France**
+# 📊 **Analyse des Votes Blancs et Nuls en France**
 
 ## 🏛 **Contexte du Projet**
 
