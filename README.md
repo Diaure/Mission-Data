@@ -87,8 +87,8 @@ N'hésitez pas à interagir avec les cartes (zoom sur des groupes précis) afin 
 🔹 Départements où ces votes atteignent le second tour.<br>
 
 ## **Conclusion** <br>
-En conclusion, si les votes blancs, nuls et abstentions étaient pris en compte, ils auraient eu un fort impact sur les résultats des votes à l'issu du premier tour.<br>
-Le candidat **`Blancs nuls et abstentions`** occuperait la première position sur le plan national.
+En conclusion, si les votes blancs, nuls et abstentions étaient pris en compte, ils auraient eu un fort impact sur les résultats des votes à l'issu du premier tour des élections présidentielles de 2022.<br>
+Le candidat **`Blancs nuls et abstentions`** occuperait la première position sur le plan national.<br>
 ![image](https://github.com/Diaure/Mission-Data/blob/main/Images/classement.PNG)<br>
 
 ## 🏆 **Auteurs & Contributions**
