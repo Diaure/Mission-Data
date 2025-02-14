@@ -95,8 +95,8 @@ Le candidat **`Blancs nuls et abstentions`** occuperait la première position su
 
 Projet réalisé dans le cadre d’un projet scolaire de Data Analyst.<br>
 **Contributions** : <br>
-**[Aurélie GABU]**(https://github.com/Diaure/Projects)<br>
-**[Marietou Gueye]**(https://github.com/Marie2201)
+[**Aurélie GABU**](https://github.com/Diaure/Projects)<br>
+[**Marietou Gueye**](https://github.com/Marie2201)
 
 ## 📌 Sources
 
