@@ -36,6 +36,28 @@ Dans les livrables les sigles suivants seront utilisés:<br>
 * **BN** = Blancs et Nuls<br>
 * **BNA** = Blancs, nuls et abstentions<br>
 
+## 📌 Livrables attendus  
+
+* ✔️ Analyse détaillée des tendances des votes blancs et nuls <br>
+* ✔️ Présentation des résultats des élections en intégrant ces votes comme candidats <br>
+* ✔️ Visualisations interactives et cartes géographiques<br>
+
+## 📑 Méthodologie
+
+1. **Nettoyage et préparation des données** (suppression des incohérences, fusion des sources de données, création des candidats **`blancs et nuls`** et **`blancs, nuls et abstentions`**).
+
+2. **Analyse temporelle** de l’évolution des votes blancs et nuls depuis 1995.
+
+3. **Corrélation entre votes blancs, nuls et abstention**.
+
+4. **Analyse locale des résultats de 2022** :
+
+* Classement des votes blancs, nuls et abstention comme des "candidats".
+
+* Cartographie des communes où ces votes dépassent 5%.
+
+5. **Visualisation des données** sous forme de tableaux, graphiques et cartes interactives.<br>
+
 ## 📊 Résultats
 
 1. **Dashboard Power BI**<br>
@@ -64,32 +86,15 @@ N'hésitez pas à interagir avec les cartes (zoom sur des groupes précis) afin 
 🔹 Communes où ces votes dépassent 5%.<br>
 🔹 Départements où ces votes atteignent le second tour.<br>
 
-## 📌 Livrables attendus  
-
-* ✔️ Analyse détaillée des tendances des votes blancs et nuls <br>
-* ✔️ Présentation des résultats des élections en intégrant ces votes comme candidats <br>
-* ✔️ Visualisations interactives et cartes géographiques<br>
-
-## 📑 Méthodologie
-
-1. **Nettoyage et préparation des données** (suppression des incohérences, fusion des sources de données, création des candidats **`blancs et nuls`** et **`blancs, nuls et abstentions`**).
-
-2. **Analyse temporelle** de l’évolution des votes blancs et nuls depuis 1995.
-
-3. **Corrélation entre votes blancs, nuls et abstention**.
-
-4. **Analyse locale des résultats de 2022** :
-
-* Classement des votes blancs, nuls et abstention comme des "candidats".
-
-* Cartographie des communes où ces votes dépassent 5%.
-
-5. **Visualisation des données** sous forme de tableaux, graphiques et cartes interactives.<br>
+## **Conclusion** <br>
+En conclusion, si les votes blancs, nuls et abstentions étaient pris en compte, ils auraient eu un fort impact sur les résultats des votes à l'issu du premier tour.<br>
+Le candidat **`Blancs nuls et abstentions`** occuperait la première position sur le plan national.
+![image](https://github.com/Diaure/Mission-Data/blob/main/Images/classement.PNG)<br>
 
 ## 🏆 **Auteurs & Contributions**
 
 Projet réalisé dans le cadre d’un projet scolaire de Data Analyst.<br>
-**Contributions** : **[Aurélie GABU]**(https://github.com/Diaure/Projects), **[Mariétou]**()<br>
+**Contributions** : **[Aurélie GABU]**(https://github.com/Diaure/Projects)
 
 ## 📌 Sources
 
