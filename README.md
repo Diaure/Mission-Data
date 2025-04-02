@@ -85,6 +85,7 @@ Les résultats par départements et communes ont été regroupés pour une meill
 N'hésitez pas à interagir avec les cartes (zoom sur des groupes précis) afin de visualiser les résultats plus en détail.<br>
 🔹 Communes où ces votes dépassent 5%.<br>
 🔹 Départements où ces votes atteignent le second tour.<br>
+![tffgf](https://github.com/Diaure/Mission-Data/blob/main/Images/Mission-data_cartographie.gif)<br>
 
 ## **Conclusion** <br>
 En conclusion, si les votes blancs, nuls et abstentions étaient pris en compte, ils auraient eu un fort impact sur les résultats des votes à l'issu du premier tour des élections présidentielles de 2022.<br>
