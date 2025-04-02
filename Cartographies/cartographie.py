@@ -76,5 +76,5 @@ st.title("Cartes géographiques")
 st.header("Résultats des votes par département  à l'issu du premier tour 2022.")
 folium_static(map_departement, width=1000, height=700)
 
-st.title("Communes où les votes blancs et nuls dépassent 5%.")
+st.header("Communes où les votes blancs et nuls dépassent 5%.")
 folium_static(map_sup5, width=1000, height=700)
