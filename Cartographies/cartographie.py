@@ -70,6 +70,8 @@ for tour in tours:
 folium.LayerControl(collapsed=False).add_to(map_sup5)
 
 
+st.set_page_config(page_title="Cartographies des élecions", page_icon="🗳️", layout="wide")
+
 st.title("Cartes géographiques")
 st.header("Résultats des votes par département  à l'issu du premier tour 2022.")
 folium_static(map_departement, width=1000, height=700)
